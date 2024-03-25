@@ -12,22 +12,27 @@ html, body {
 }
 
 #nav{
-    height: 150px;
+    height: 4vmax;
     width: 100%;
     display: flex;
-    align-items: center;
-    padding: 0 150px;
-    gap: 50px; 
+    align-items: relative;
+    padding: 3vmax;
+    gap: 2vmax; 
     position: fixed;
     justify-content: flex-start;
     z-index: 99;
 }
 #nav img{
-    height: 75px;
+    height: 7vmax;
+    
+    
 }
-#nav h4{
+#image h4{
+    height: 7vmax;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 5vmax;
+    align-self: middle;
+
 }
 video{
     height:100% ;
@@ -52,22 +57,27 @@ video{
  }
 
 #page1 h1{
-    font-size: 140px;
+    font-size: 10vmax;
+    font-weight: 900;
+    position: relative;
+}
+#page1 h2{
+    font-size: 3vmax;
     font-weight: 900;
     position: relative;
 }
 
 
 #page1 p{
-    font-size: 15px;
+    font-size: 2vmax;
     font-weight: 500;
-    margin-top: 10px;
-    width: 570px;
+    margin-top: 1vmax;
+    width: 70vmax;
 }
 
 #name p{
     align-items: center;
-    font-size: 10px;
+    font-size: 2vmax;
     font-weight: 400;
     margin-top: 20px;
     width: 500px;
