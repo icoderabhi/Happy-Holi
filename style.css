@@ -12,11 +12,11 @@ html, body {
 }
 
 #nav{
-    height: 4vmax;
+    height: 4vmin;
     width: 100%;
     display: flex;
     align-items: relative;
-    padding: 3vmax;
+    padding: 3vmin;
     gap: 2vmax; 
     position: fixed;
     justify-content: flex-start;
@@ -28,9 +28,9 @@ html, body {
     
 }
 #image h4{
-    height: 7vmax;
+    height: 7vmin;
     text-transform: uppercase;
-    font-weight: 5vmax;
+    font-weight: 5vmin;
     align-self: middle;
 
 }
@@ -57,27 +57,27 @@ video{
  }
 
 #page1 h1{
-    font-size: 8vmax;
+    font-size: 8vmin;
     font-weight: 1000;
     position: relative;
 }
 #page1 h2{
-    font-size: 3vmax;
+    font-size: 3vmin;
     font-weight: 900;
     position: relative;
 }
 
 
 #page1 p{
-    font-size: 2vmax;
+    font-size: 2vmin;
     font-weight: 500;
     margin-top: 1vmax;
-    width: 60vmax;
+    width: 50vmax;
 }
 
 #name p{
     align-items: center;
-    font-size: 2vmax;
+    font-size: 2vmin;
     font-weight: 400;
     margin-top: 20px;
     width: 500px;
